@@ -1,5 +1,6 @@
 # Devstack Installation Steps
 
+```
 apt-get update
 apt-get upgrade -y
 reboot
@@ -17,3 +18,4 @@ cd devstack/
 Now create a basic configuration file. A sample file is present in this repository (sample-local.conf file).
 Run the command ./stack.sh
 This will start the installation process.
+```
